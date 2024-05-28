@@ -37,7 +37,7 @@ let displayrecord = () => {
         <td>${userdata[key].phone}</td>
         <td>${userdata[key].email}</td>
         <td>${userdata[key].location}</td>
-        <td><a href="index.html?key=${key}"><img src="images/Frame 103.png" onclick="userdisplay()"></a></td>
+        <td><a href="email.html?key=${key}"><img src="images/Frame 103.png" onclick="userdisplay()"></a></td>
         <td><a href="#"><img src="images/Delete.png" onclick="removedata(${key})"></a></td>
        </tr>`
     };
